@@ -46,11 +46,9 @@ chmod +x diskAlert.sh
 ```
 
 ## Scheduling with Cron
-1
-. To automate the disk space monitoring, you can schedule this script to run at regular intervals using cron jobs.
-```bash
-Open the crontab editor:
-```
+To automate the disk space monitoring, you can schedule this script to run at regular intervals using cron jobs.
+
+1. Open the crontab editor:
 2. Add a cron job to run the script at your desired frequency. For example, to run it daily at 2 AM, add this line:
 ```bash
 0 2 * * * /path/to/diskAlert.sh
