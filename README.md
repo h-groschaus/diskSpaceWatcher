@@ -91,4 +91,4 @@ Subject: WARNING - Disk space of your_server_name is running low
 * Make sure the script has the appropriate permissions to write to /var/log/ or change the path of LOGFILE to a more suitable location.
 
 ## License
-This script is released under the MIT License.
+This script is released under the [MIT license](LICENSE.md#licence-mit).
